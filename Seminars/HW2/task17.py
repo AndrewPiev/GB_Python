@@ -2,7 +2,6 @@
 # Найдите произведение элементов на введенных пользователем позициях.
 
 import random
-from turtle import position
 N = int(input('Ведите целое число N для наполнения массива случайными числами: '))
 array_rand = []
 for i in range (0, N):
