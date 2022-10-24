@@ -37,10 +37,10 @@ value: значение, индекс которого требуется най
 # colors = ['red', 'green', 'white']
 # position = colors.index('green')
 # print(position)
-#
+
 # position = colors.index('violet')
 # print(position)
-#
+
 # if 'violet' in colors:
 #     position = colors.index('violet')
 #     print(position)
@@ -68,10 +68,10 @@ index: индекс элемента, который требуется удал
 Если список пуст или указан индекс за пределами диапазона, то во время выполнения происходит ошибка.
 '''
 
-# colors = ['red', 'green', 'white', 'yellow']
-# item = colors.pop()
-# print(item)
-# print(colors)
+colors = ['red', 'green', 'white', 'yellow']
+item = colors.pop()
+print(item)
+print(colors)
 
 '''
 Метод count() возвращает количество элементов в списке, значения которых равны переданному в метод значению. 
