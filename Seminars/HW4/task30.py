@@ -1,18 +1,5 @@
 # 30. Есть два файла: в одном хранятся ФИО пользователей сайта, а в другом — данные об их хобби. Известно, что при хранении данных используется принцип: одна строка — один пользователь. Написать код, загружающий данные из обоих файлов и формирующий из них словарь: ключи — ФИО, значения — данные о хобби. Сохранить словарь в файл users_hobby.txt. 
 
-
-# users_hobby = {}
-# file_1 = open('users.txt', 'r', encoding='utf8')
-# paragraphs = file_1.readlines()
-# print(paragraphs)
-# file_1.close()
-
-# path = 'hobby.txt'
-# data = open(path, 'r', encoding='utf8')
-# for line in data:
-#     print(line)
-# data.close()
-
 file_1 = open('users.txt', 'r', encoding='utf8')
 content1 = file_1.read()
 file_2 = open('hobby.txt', 'r', encoding='utf8')
