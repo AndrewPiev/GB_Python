@@ -6,4 +6,4 @@ for i in my_list:
     if my_list.count(i) == 1:
         unrepeated.append (i)
 print ('Изначальный список: ', my_list)
-print ('Неповторяющиеся элементы: ',unrepeated)
+print ('Неповторяющиеся элементы: ', sorted(unrepeated))

@@ -2,10 +2,14 @@
 
 file_1 = open('users.txt', 'r', encoding='utf8')
 content1 = file_1.read()
+print (content1)
 file_2 = open('hobby.txt', 'r', encoding='utf8')
 content2 = file_2.read()
+print (content2)
 users = content1.splitlines()
+print (users)
 hobbies = content2.splitlines()
+print (hobbies)
 users_hobbies = {}
 for i in range (len(users)):
     users_hobbies [users[i]] = hobbies [i]

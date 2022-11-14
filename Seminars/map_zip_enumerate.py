@@ -341,3 +341,11 @@ enumerate() возвращает кортеж из индекса элемент
 # colors = ['red', 'green', 'blue']
 # for i in range(len(colors)):
 #     print(i, colors[i])
+
+# products = ['iPad', 'Samsung Galaxy', 'iPhone', 'IRiver']
+# new_p = list(filter(lambda x: x.lower().startswith('ip'), products))
+# print (*new_p)
+
+DISCOUNT = 7
+prices = ['1578.4', '892.4', '354.1', '871.5']
+

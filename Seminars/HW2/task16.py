@@ -9,3 +9,4 @@ for i in range (1, N+1):
 print ()
 print (f'Последовательность (1+1/n)^n для',N, ':', sequence, 'и сумма ее элементов составила', round(sequence_sum, 2))
 print ()
+
