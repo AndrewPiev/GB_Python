@@ -93,4 +93,25 @@
 # print(do_math(list_from_string(string)))
 
 
-print (list(map(lambda x,y : x*y, range (5), range (5))))
+# print (list(map(lambda x,y : x*y, range (5), range (5))))
+
+# print (complex (1,1) / complex (1,1))
+
+
+# from datetime import datetime
+
+# now = datetime.now()
+
+# print(now)
+# print(now.year)
+# print(now.month)
+# print(now.hour)
+# print(type(now.second))
+
+# print (now.year - 10)
+# print (type(now))
+
+
+import random
+
+print (f'{random.randrange(1,29)}-{random.randrange(1,13)}-{random.randrange(1960,2000)}')

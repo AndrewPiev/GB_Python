@@ -1,3 +1,3 @@
 import controller as c
 
-c.launch_rocket()
+c.do_it()

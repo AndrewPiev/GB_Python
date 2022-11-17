@@ -10,10 +10,10 @@ print(url_parts)
 
 # # ['https:', '', 'geekbrains.ru', 'teacher', 'lessons', '79615']
 
-# url = 'https://geekbrains.ru/teacher/lessons/79615'
-# _t_protocol, _, domain, *resource_address = url.split('/')
-# t_protocol = _t_protocol[:-1]
-# print(t_protocol, resource_address)
+url = 'https://geekbrains.ru/teacher/lessons/79615'
+_t_protocol, _, domain, *resource_address = url.split('/')
+t_protocol = _t_protocol[:-1]
+print(t_protocol, resource_address)
 
 
 '''
@@ -22,7 +22,7 @@ print(url_parts)
 '''
 # raw_url = ['https:', '', 'geekbrains.ru', 'teacher', 'lessons', '79615']
 # print('/'.join(raw_url))
-#
+
 # url = '/'.join(raw_url)
 # print(url)
 
