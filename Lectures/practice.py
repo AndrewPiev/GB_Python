@@ -112,6 +112,9 @@
 # print (type(now))
 
 
-import random
+# import random
 
-print (f'{random.randrange(1,29)}-{random.randrange(1,13)}-{random.randrange(1960,2000)}')
+# print (f'{random.randrange(1,29)}-{random.randrange(1,13)}-{random.randrange(1960,2000)}')
+
+
+

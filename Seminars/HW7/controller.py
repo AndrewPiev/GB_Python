@@ -8,7 +8,7 @@ def do_it():
        num1, num2 = get_value_rational()
     else:
         a, b, c, d = get_value_comlex()
-        num1, num2 = complex (a,b), complex (b,c)
+        num1, num2 = complex (a,b), complex (c,d)
     init(num1, num2)
     operand = get_operation()
     if operand ==1:
